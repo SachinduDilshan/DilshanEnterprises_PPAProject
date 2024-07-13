@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+
+/*------------------Header----------------------*/
+
+.header a {
+  float: left;
+  background-color: #FFFF00;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 4px 15px;
+  text-decoration: none;
+  font-size: 12px; 
+  font-weight: bolder;
+  line-height: 25px;
+  border-radius: 15px;
+  margin-right: 5px;
+  transition: 0.8s;
+}
+
+.header a:hover {
+    background-color: #ffba31;
+    color: rgb(0, 0, 0);
+    
+}
+
+.header a.active {
+  background-color: rgb(252, 251, 224);
+  color: rgb(0, 0, 0);
+}
+
+.header-right {
+  float: left;
+}
+/**********************Side bar**************/
+
+.sidebar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #232323;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  background-color: #FFFF00;
+  padding: 10px 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  width: 250px;
+  font-size: 18px;
+  color: #000000;
+  border-radius: 18px;
+  display: block;
+  text-align: center;
+}
+
+.sidebar a:hover {
+  background-color: #FFC700;
+}
+
+.sidebar a.active{
+  background-color: #ffff9f;
+  color: #000000;
+}
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.time-date {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.adlogo img{
+  float: left;
+  width: 280px;
+  height: auto;
+ margin-left: 10px;
+}
