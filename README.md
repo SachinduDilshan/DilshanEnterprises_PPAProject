@@ -24,3 +24,5 @@ User profile management system.
 * Managing user's details
 * View purchase history of the user
 * Report generation of purchase history of the user.
+
+* Need to download fpdf libary seperately.
