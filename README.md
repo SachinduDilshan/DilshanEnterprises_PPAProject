@@ -1,4 +1,4 @@
-# PPAProject
+# Dilshan Enterpirses-PPAProject
 This project consists of six main functions.
 
 Employee management system.
